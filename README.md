@@ -4,7 +4,7 @@ Dockerfile to build a containerized working openpose repository
 Dockerfile for https://hub.docker.com/r/brwrld/openpose.
 It makes it easy to run openpose in docker. With intel realsense driver support, even though you can only use the video streams as of now. The image is based on debian.
 ## Instructions
-To run the image, save the following code to a .sh file, e.g. [ready shell script] (https://github.com/j3cc/docker-openpose-realsense/blob/master/start_openpose_docker):
+To run the image, save the following code to a .sh file, e.g.  [ready shell script](./start_openpose_docker.sh):
 
 ```
 XSOCK=/tmp/.X11-unix
